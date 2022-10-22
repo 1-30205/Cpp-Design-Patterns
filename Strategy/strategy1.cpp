@@ -2,7 +2,7 @@ enum TaxBase {
 	CN_Tax,
 	US_Tax,
 	DE_Tax,
-	FR_Tax       //¸ü¸Ä
+	FR_Tax       //ï¿½ï¿½ï¿½ï¿½
 };
 
 class SalesOrder{
@@ -20,7 +20,7 @@ public:
         else if (tax == DE_Tax){
             //DE***********
         }
-		else if (tax == FR_Tax){  //¸ü¸Ä
+		else if (tax == FR_Tax){  //ï¿½ï¿½ï¿½ï¿½
 			//...
 		}
 

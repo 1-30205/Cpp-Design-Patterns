@@ -66,14 +66,10 @@ protected:
 };
 
 class CryptoStream: public DecoratorStream {
- 
-
 public:
     CryptoStream(Stream* stm):DecoratorStream(stm){
     
     }
-    
-    
     virtual char Read(int number){
        
         //额外的加密操作...
@@ -118,6 +114,4 @@ void Process(){
     
     BufferedStream* s4=new BufferedStream(s2);
     
-    
-
 }
