@@ -1,6 +1,6 @@
 #include "template1_lib.cpp"
 
-//Ӧ�ó��򿪷���Ա
+//应用程序开发人员
 class Application
 {
   public:
